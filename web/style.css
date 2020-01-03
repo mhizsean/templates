@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+   
+}
+
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: thistle;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color:  #ffffff;
+   text-transform: uppercase;
+   font-size: 17px;
+   font-weight: bolder;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: thistle;
+    font-size: 22px;
+}
+
+header .carousel-inner .item {
+    height: 100vh;
+}
+.carousel-inner .item img {
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel-caption {
+    padding-bottom: 250px;
+}
+
+.carousel-control .right {
+    background-image: none;
+}
+.carousel-control .left {
+    background-image: none;
+}
+
+.carousel-caption {
+    padding-top: 40px;
+}
+.carousel-caption h2 {
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: bolder;  
+}
+.carousel-caption h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bolder;  
+}
+
+.btn {
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-radius: 23px;
+  animation-duration: 3s;
+  animation-name: bounceIn;
+  transition: 0.4s;
+
+}
+
+.btn:hover {
+    background: transparent;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+    
+}
+
+.head {
+    background-image: url(assets/img1.jpg);
+}
+
+.col-md-4 img {
+    width: px;
+}

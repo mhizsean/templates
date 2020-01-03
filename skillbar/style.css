@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+:root {
+    --color1: rgba(0, 104, 64);
+    --color2: linear-gradient(90deg, rgba(31, 166,126,1)0%, rgba(13,74,56,1) 100%);
+}
+
+.skill-section {
+    margin: 100px;
+    box-shadow: 3px 3px 5px 3px  rgba(13, 74, 56, 1);
+    padding: 3rem;
+    font-size: 1rem;
+    width: 90%;
+    max-width: 800px;
+}
+
+i {
+    color: var(--color1);
+}
+
+h2 {
+    color: rgba(13, 74, 56, 1);
+    margin-bottom: 2rem;
+} 
+
+.what{
+    margin: .75rem 0 .1rem .75rem;
+    color: rgb(92, 92, 92);
+    font-weight: bolder;
+}
+
+.skill-contianer {
+    background-color: rgb(221, 221, 211);
+    border-radius: 1rem;
+    height: 35px;
+}
+
+.skill {
+    background: var(--color2);
+    height: 100%;
+    font-size: 1.25rem;
+    color: white;
+    border-radius: 1rem;
+    
+}
+
+.skill span {
+    margin: 140px;
+}
+.s1 {width: 80%;}
+.s2 {width: 78%;}
+.s3 {width: 70%;}
+.s4 {width: 65%;}
+.s5 {width: 80%;}
+
+.load {
+    animation: loading 3s linear;
+    -webkit-animation: loading 3s linear;
+}
+
+@keyframes loading {
+    0%{width: 0%;}
+}
